@@ -1,0 +1,14 @@
+        <textarea ng-model="data.message">
+          
+        </textarea>
+        <div class="controls hide">
+          <button class="btn" ng-model="data.message">Make Good</button>
+          <button class="btn" ng-click="data.message|makeBad">Make Bad</button>
+        </div>
+
+        <div class="result">
+          {{data.message|makeGood}}
+        </div>
+        <div class="result">
+          {{data.message|makeBad}}
+        </div>

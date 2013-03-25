@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Language Jiggle&trade;</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="styles/main.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body ng-app="langJiggle">
+
+    <div ng-controller="LJCtrl">
+
+      <h1>Language Jiggle</h1>
+
+      <aside class="main-sidebar">
+          <ng-include src="'partials/sidebar.html'"></ng-include>
+      </aside>
+
+      <section class="content">
+
+        <div ng-view></div>
+
+      </section>
+
+    </div>
+
+    <script src="scripts/vendor/angular.min.js"></script>
+    <script src="scripts/vendor/angular-resource.min.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
+
+<!-- 
+Hello there!
+
+I'm sorry to miss you this time! I'm looking forward to seeing you soon!
+
+Sincerely,
+Tom. 
+ -->
